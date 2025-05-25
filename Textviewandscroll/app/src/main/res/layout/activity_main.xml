@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:src="@drawable/amresh" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:text="Graduate student at the University of Chhattisgarh, India, pursuing a Master of
+            Computer Applications with a focus on Entrepreneurship and Innovation. I have a strong
+            background in computer science and a deep interest in technology.
+            Graduate student at the University of Chhattisgarh, India, pursuing a Master of Computer
+            Applications with a focus on Entrepreneurship and Innovation. I have a strong background in
+            computer science and a deep interest in technology.   Graduate student at the University of
+            Chhattisgarh, India, pursuing a Master of Computer Applications with a focus on Entrepreneurship
+            and Innovation. I have a strong background in computer science and a deep interest in technology.
+            Graduate student at the University of Chhattisgarh, India, pursuing a Master of Computer
+            Applications with a focus on Entrepreneurship and Innovation. I have a strong background
+            in computer science and a deep interest in technology."
+            android:textSize="15dp" />
+        />
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:src="@drawable/amresh" />
+
+
+
+</LinearLayout>
